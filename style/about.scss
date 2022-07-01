@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+@mixin Open-Sans-700 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+}
+@mixin Open-Sans-800 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+}
+
+@mixin Roboto-400 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin Estonia-400 {
+  font-family: 'Estonia';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin Roboto-500 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+}
+
+#navbar1 {
+  background-color: #030A15;
+  display: flex;
+  align-items: center;
+  p {
+    @include Roboto-500();
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #F9F9F9;
+  }
+  .bagian1 {
+    display: flex;
+    padding-left: 30px;
+    gap: 14px;
+    align-items: center;
+    span {
+      display: block;
+      background: #FFFFFF;
+      opacity: 0.2;
+      width: 2px;
+      height: 20px;
+    }
+    .mail-bagian1 {
+      display: flex;
+      gap: 10px;
+    }
+    .clock-bagian1 {
+      display: flex;
+      gap: 10px;
+    }
+  }
+} 

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+#navbar1 {
+  background-color: #030A15;
+  display: flex;
+  align-items: center; }
+  #navbar1 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #F9F9F9; }
+  #navbar1 .bagian1 {
+    display: flex;
+    padding-left: 30px;
+    gap: 14px;
+    align-items: center; }
+    #navbar1 .bagian1 span {
+      display: block;
+      background: #FFFFFF;
+      opacity: 0.2;
+      width: 2px;
+      height: 20px; }
+    #navbar1 .bagian1 .mail-bagian1 {
+      display: flex;
+      gap: 10px; }
+    #navbar1 .bagian1 .clock-bagian1 {
+      display: flex;
+      gap: 10px; }
+
+/*# sourceMappingURL=about.css.map */

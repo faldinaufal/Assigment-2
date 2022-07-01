@@ -1,0 +1,19 @@
+{
+  "name": "assigment-2",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./style/input.css -o ./style/output.css --watch",
+    "prod": "NODE_ENV=production npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
