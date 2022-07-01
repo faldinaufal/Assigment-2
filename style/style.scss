@@ -145,21 +145,22 @@
     gap: 10px;
     padding-left: 55.27%;
     align-items: center;
-    input {
-      // display: none;
-      background-color: transparent;  
-      border: 2px;
-      border-radius: 10px;
-      height: 26px;
-      transition: width 0.3s ease;  
+    input[type=text] {
+      width: 0;
+      box-sizing: border-box;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: transparent;
+      background-image: url('/src/Search-Icon-White.svg');
+      background-position: 10px 10px; 
+      background-repeat: no-repeat;
+      padding: 8px 10px 8px 40px;
+      transition: width 0.2s ease-in-out;
+      color: #FFFFFF;
     }
-    .checkbox {
-      position: absolute;
-      left: 903px;
-      width: 30px;
-      height: 30px;
-      opacity: 1;
-      cursor: pointer;
+    
+    input[type=text]:focus {
+      width: 100%;
     }
   }
 
