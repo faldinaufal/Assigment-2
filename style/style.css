@@ -87,7 +87,6 @@
     align-items: center; }
     #navbar2 #search input[type=text] {
       width: 0;
-      box-sizing: border-box;
       border-radius: 4px;
       font-size: 16px;
       background-color: transparent;
@@ -95,7 +94,7 @@
       background-position: 10px 10px;
       background-repeat: no-repeat;
       padding: 8px 10px 8px 40px;
-      transition: width 0.2s ease-in-out;
+      transition: 0.3s ease-in-out;
       color: #FFFFFF; }
     #navbar2 #search input[type=text]:focus {
       width: 100%; }
