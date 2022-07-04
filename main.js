@@ -17,10 +17,8 @@ function showSlides(n) {
 }
 
 const toggle = document.querySelector ('#mobile-butoon input')
-const nav = document.querySelector ('#content ul')
+const nav = document.querySelector ('#navbar2 #content ul')
 
 toggle.addEventListener('click', function(){
     nav.classList.toggle('slide')
 })
-
-console.log('Test')
