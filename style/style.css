@@ -939,6 +939,9 @@
   }
 }
 @media screen and (max-width: 430px) {
+  body {
+    overflow-x: hidden;
+  }
   #navbar1 {
     display: none;
   }
@@ -1165,19 +1168,22 @@
   }
   #footer2 {
     margin-top: 10px;
-    height: 120px;
+    height: 110px;
     padding-top: 0;
   }
   #footer3 #content {
     margin-left: -20px;
     padding-top: 97px;
+    width: 100%;
   }
   #footer3 #content p {
     font-size: 8px;
+    line-height: 10px;
     width: auto;
   }
   #footer3 #content .navfooter {
-    padding-left: 40px;
+    position: absolute;
+    right: 7%;
     gap: 8px;
   }
   #footer3 #content .navfooter a {
